@@ -22,4 +22,4 @@ def main():
     if input('Что вы хотите сделать: декодировать или закодировать?\n') =="закодировать":
         print(*encode_to_morse(input('Введите текст для кодировки...\n')))
     else:
-        print(decode_from_morse(input('Введите код для раскодировки...\n')))
+  print(*decode_from_morse(input('Введите код для раскодировки...\n')))
